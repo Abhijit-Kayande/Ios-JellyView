@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C0C37E21A565CC70023F216 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C37E11A565CC70023F216 /* main.m */; };
+		6C0C37E51A565CC70023F216 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C37E41A565CC70023F216 /* AppDelegate.m */; };
+		6C0C37E81A565CC70023F216 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C37E71A565CC70023F216 /* ViewController.m */; };
+		6C0C37EB1A565CC70023F216 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C0C37E91A565CC70023F216 /* Main.storyboard */; };
+		6C0C37ED1A565CC70023F216 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C0C37EC1A565CC70023F216 /* Images.xcassets */; };
+		6C0C37F01A565CC70023F216 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C0C37EE1A565CC70023F216 /* LaunchScreen.xib */; };
+		6C0C37FC1A565CC70023F216 /* JellyViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C37FB1A565CC70023F216 /* JellyViewTests.m */; };
+		6C0C38071A5671A40023F216 /* JellyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C0C38061A5671A40023F216 /* JellyView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C0C37F61A565CC70023F216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C0C37D41A565CC70023F216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C0C37DB1A565CC70023F216;
+			remoteInfo = JellyView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C0C37DC1A565CC70023F216 /* JellyView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JellyView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0C37E01A565CC70023F216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0C37E11A565CC70023F216 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C0C37E31A565CC70023F216 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C0C37E41A565CC70023F216 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C0C37E61A565CC70023F216 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C0C37E71A565CC70023F216 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C0C37EA1A565CC70023F216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C0C37EC1A565CC70023F216 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6C0C37EF1A565CC70023F216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6C0C37F51A565CC70023F216 /* JellyViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JellyViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C0C37FA1A565CC70023F216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C0C37FB1A565CC70023F216 /* JellyViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JellyViewTests.m; sourceTree = "<group>"; };
+		6C0C38051A5671A40023F216 /* JellyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JellyView.h; sourceTree = "<group>"; };
+		6C0C38061A5671A40023F216 /* JellyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JellyView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C0C37D91A565CC70023F216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0C37F21A565CC70023F216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C0C37D31A565CC70023F216 = {
+			isa = PBXGroup;
+			children = (
+				6C0C37DE1A565CC70023F216 /* JellyView */,
+				6C0C37F81A565CC70023F216 /* JellyViewTests */,
+				6C0C37DD1A565CC70023F216 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C0C37DD1A565CC70023F216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C0C37DC1A565CC70023F216 /* JellyView.app */,
+				6C0C37F51A565CC70023F216 /* JellyViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C0C37DE1A565CC70023F216 /* JellyView */ = {
+			isa = PBXGroup;
+			children = (
+				6C0C37E31A565CC70023F216 /* AppDelegate.h */,
+				6C0C37E41A565CC70023F216 /* AppDelegate.m */,
+				6C0C37E61A565CC70023F216 /* ViewController.h */,
+				6C0C37E71A565CC70023F216 /* ViewController.m */,
+				6C0C38051A5671A40023F216 /* JellyView.h */,
+				6C0C38061A5671A40023F216 /* JellyView.m */,
+				6C0C37E91A565CC70023F216 /* Main.storyboard */,
+				6C0C37EC1A565CC70023F216 /* Images.xcassets */,
+				6C0C37EE1A565CC70023F216 /* LaunchScreen.xib */,
+				6C0C37DF1A565CC70023F216 /* Supporting Files */,
+			);
+			path = JellyView;
+			sourceTree = "<group>";
+		};
+		6C0C37DF1A565CC70023F216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C0C37E01A565CC70023F216 /* Info.plist */,
+				6C0C37E11A565CC70023F216 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C0C37F81A565CC70023F216 /* JellyViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C0C37FB1A565CC70023F216 /* JellyViewTests.m */,
+				6C0C37F91A565CC70023F216 /* Supporting Files */,
+			);
+			path = JellyViewTests;
+			sourceTree = "<group>";
+		};
+		6C0C37F91A565CC70023F216 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C0C37FA1A565CC70023F216 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C0C37DB1A565CC70023F216 /* JellyView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0C37FF1A565CC70023F216 /* Build configuration list for PBXNativeTarget "JellyView" */;
+			buildPhases = (
+				6C0C37D81A565CC70023F216 /* Sources */,
+				6C0C37D91A565CC70023F216 /* Frameworks */,
+				6C0C37DA1A565CC70023F216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JellyView;
+			productName = JellyView;
+			productReference = 6C0C37DC1A565CC70023F216 /* JellyView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C0C37F41A565CC70023F216 /* JellyViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C0C38021A565CC70023F216 /* Build configuration list for PBXNativeTarget "JellyViewTests" */;
+			buildPhases = (
+				6C0C37F11A565CC70023F216 /* Sources */,
+				6C0C37F21A565CC70023F216 /* Frameworks */,
+				6C0C37F31A565CC70023F216 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C0C37F71A565CC70023F216 /* PBXTargetDependency */,
+			);
+			name = JellyViewTests;
+			productName = JellyViewTests;
+			productReference = 6C0C37F51A565CC70023F216 /* JellyViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C0C37D41A565CC70023F216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ABS;
+				TargetAttributes = {
+					6C0C37DB1A565CC70023F216 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					6C0C37F41A565CC70023F216 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 6C0C37DB1A565CC70023F216;
+					};
+				};
+			};
+			buildConfigurationList = 6C0C37D71A565CC70023F216 /* Build configuration list for PBXProject "JellyView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C0C37D31A565CC70023F216;
+			productRefGroup = 6C0C37DD1A565CC70023F216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C0C37DB1A565CC70023F216 /* JellyView */,
+				6C0C37F41A565CC70023F216 /* JellyViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C0C37DA1A565CC70023F216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0C37EB1A565CC70023F216 /* Main.storyboard in Resources */,
+				6C0C37F01A565CC70023F216 /* LaunchScreen.xib in Resources */,
+				6C0C37ED1A565CC70023F216 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0C37F31A565CC70023F216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C0C37D81A565CC70023F216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0C37E81A565CC70023F216 /* ViewController.m in Sources */,
+				6C0C38071A5671A40023F216 /* JellyView.m in Sources */,
+				6C0C37E51A565CC70023F216 /* AppDelegate.m in Sources */,
+				6C0C37E21A565CC70023F216 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C0C37F11A565CC70023F216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0C37FC1A565CC70023F216 /* JellyViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C0C37F71A565CC70023F216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C0C37DB1A565CC70023F216 /* JellyView */;
+			targetProxy = 6C0C37F61A565CC70023F216 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C0C37E91A565CC70023F216 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0C37EA1A565CC70023F216 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C0C37EE1A565CC70023F216 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C0C37EF1A565CC70023F216 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C0C37FD1A565CC70023F216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C0C37FE1A565CC70023F216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C0C38001A565CC70023F216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JellyView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C0C38011A565CC70023F216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JellyView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C0C38031A565CC70023F216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JellyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyView.app/JellyView";
+			};
+			name = Debug;
+		};
+		6C0C38041A565CC70023F216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = JellyViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JellyView.app/JellyView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C0C37D71A565CC70023F216 /* Build configuration list for PBXProject "JellyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0C37FD1A565CC70023F216 /* Debug */,
+				6C0C37FE1A565CC70023F216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0C37FF1A565CC70023F216 /* Build configuration list for PBXNativeTarget "JellyView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0C38001A565CC70023F216 /* Debug */,
+				6C0C38011A565CC70023F216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C0C38021A565CC70023F216 /* Build configuration list for PBXNativeTarget "JellyViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C0C38031A565CC70023F216 /* Debug */,
+				6C0C38041A565CC70023F216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C0C37D41A565CC70023F216 /* Project object */;
+}
